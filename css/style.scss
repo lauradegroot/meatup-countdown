@@ -1,21 +1,31 @@
 body{
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-align: center;
+	background: url(../img/cubes.png);
 }
 .content{
 	width:600px;
-	margin:0 auto;
+	margin:40px auto 0 auto;
+	background-color: #fff;
+	padding-bottom:40px;
 	h1{
 		font-weight: normal;
+		padding-top:50px;
+		margin-bottom:0px;
+	}
+	p{
+		margin: 0;
 	}
 	.meatup{
 		width:400px;
 		margin: 0 auto 100px auto;
 		h2{
 			font-weight: normal;
+			margin-bottom:5px;
 		}
 		.count{
 			margin-top:30px;
+			font-size: 30px;
 		}
 	}
 }
@@ -65,6 +75,7 @@ body{
 }
 .countdown-amount {
     font-size: 200%;
+    color:#f181ad;
 }
 .countdown-period {
     display: block;
@@ -72,4 +83,5 @@ body{
 .countdown-descr {
 	display: block;
 	width: 100%;
+	color:#f181ad;
 }

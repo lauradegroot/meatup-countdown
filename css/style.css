@@ -1,19 +1,28 @@
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-align: center; }
+  text-align: center;
+  background: url(../img/cubes.png); }
 
 .content {
   width: 600px;
-  margin: 0 auto; }
+  margin: 40px auto 0 auto;
+  background-color: #fff;
+  padding-bottom: 40px; }
   .content h1 {
-    font-weight: normal; }
+    font-weight: normal;
+    padding-top: 50px;
+    margin-bottom: 0px; }
+  .content p {
+    margin: 0; }
   .content .meatup {
     width: 400px;
     margin: 0 auto 100px auto; }
     .content .meatup h2 {
-      font-weight: normal; }
+      font-weight: normal;
+      margin-bottom: 5px; }
     .content .meatup .count {
-      margin-top: 30px; }
+      margin-top: 30px;
+      font-size: 30px; }
 
 /* jQuery Countdown styles 2.0.0. */
 .countdown-rtl {
@@ -56,11 +65,13 @@ body {
   text-align: center; }
 
 .countdown-amount {
-  font-size: 200%; }
+  font-size: 200%;
+  color: #f181ad; }
 
 .countdown-period {
   display: block; }
 
 .countdown-descr {
   display: block;
-  width: 100%; }
+  width: 100%;
+  color: #f181ad; }
