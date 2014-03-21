@@ -2,11 +2,18 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center; }
 
-.meatup {
+.content {
   width: 600px;
-  margin: 0 auto 100px auto; }
-  .meatup h2 {
+  margin: 0 auto; }
+  .content h1 {
     font-weight: normal; }
+  .content .meatup {
+    width: 400px;
+    margin: 0 auto 100px auto; }
+    .content .meatup h2 {
+      font-weight: normal; }
+    .content .meatup .count {
+      margin-top: 30px; }
 
 /* jQuery Countdown styles 2.0.0. */
 .countdown-rtl {
