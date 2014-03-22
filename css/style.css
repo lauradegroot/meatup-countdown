@@ -3,25 +3,50 @@ body {
   text-align: center;
   background: url(../img/cubes.png); }
 
+a {
+  color: #34a4b8;
+  text-decoration: none; }
+
+a:hover {
+  color: #f181ad; }
+
 .content {
-  width: 600px;
-  margin: 40px auto 0 auto;
+  width: 870px;
+  margin: 0 auto; }
+
+.gifs {
+  float: left; }
+  .gifs img {
+    width: 135px; }
+
+.meatups-list {
+  width: 550px;
+  /*margin:40px 20px 0 20px;*/
   background-color: #fff;
-  padding-bottom: 40px; }
-  .content h1 {
+  padding-bottom: 40px;
+  float: left;
+  height: 970px; }
+  .meatups-list h1 {
     font-weight: normal;
     padding-top: 50px;
-    margin-bottom: 0px; }
-  .content p {
-    margin: 0; }
-  .content .meatup {
+    margin-bottom: 0px;
+    letter-spacing: 1.5px; }
+  .meatups-list p {
+    margin: 0 0 9px 0; }
+  .meatups-list p.subhead {
+    font-size: 19px;
+    letter-spacing: 1px; }
+  .meatups-list .meatup {
     width: 400px;
-    margin: 0 auto 100px auto; }
-    .content .meatup h2 {
+    margin: 0 auto 120px auto; }
+    .meatups-list .meatup h2 {
       font-weight: normal;
-      margin-bottom: 5px; }
-    .content .meatup .count {
-      margin-top: 30px;
+      margin-bottom: 5px;
+      font-size: 30px; }
+    .meatups-list .meatup p {
+      font-size: 18px; }
+    .meatups-list .meatup .count {
+      margin-top: 10px;
       font-size: 30px; }
 
 /* jQuery Countdown styles 2.0.0. */

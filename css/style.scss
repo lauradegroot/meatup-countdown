@@ -3,28 +3,56 @@ body{
 	text-align: center;
 	background: url(../img/cubes.png);
 }
+a{
+	color:#34a4b8;
+	text-decoration: none;
+}
+a:hover{
+	color:#f181ad;
+}
 .content{
-	width:600px;
-	margin:40px auto 0 auto;
+	width:870px;
+	margin:0 auto;
+}
+.gifs{
+	float:left;
+	img{
+		width:135px;
+	}
+}
+.meatups-list{
+	width:550px;
+	/*margin:40px 20px 0 20px;*/
 	background-color: #fff;
 	padding-bottom:40px;
+	float:left;
+	height:970px;
 	h1{
 		font-weight: normal;
 		padding-top:50px;
 		margin-bottom:0px;
+		letter-spacing: 1.5px;
 	}
 	p{
-		margin: 0;
+		margin: 0 0 9px 0;
+	}
+	p.subhead{ 
+		font-size: 19px;
+		letter-spacing: 1px;
 	}
 	.meatup{
 		width:400px;
-		margin: 0 auto 100px auto;
+		margin: 0 auto 120px auto;
 		h2{
 			font-weight: normal;
 			margin-bottom:5px;
+			font-size:30px;
+		}
+		p{
+			font-size: 18px;
 		}
 		.count{
-			margin-top:30px;
+			margin-top:10px;
 			font-size: 30px;
 		}
 	}
