@@ -11,7 +11,7 @@ a:hover {
   color: #f181ad; }
 
 .content {
-  width: 870px;
+  width: 820px;
   margin: 0 auto; }
 
 .gifs {
@@ -21,14 +21,13 @@ a:hover {
 
 .meatups-list {
   width: 550px;
-  /*margin:40px 20px 0 20px;*/
   background-color: #fff;
   padding-bottom: 40px;
   float: left;
   height: 970px; }
   .meatups-list h1 {
     font-weight: normal;
-    padding-top: 50px;
+    padding-top: 40px;
     margin-bottom: 0px;
     letter-spacing: 1.5px; }
   .meatups-list p {
@@ -38,7 +37,7 @@ a:hover {
     letter-spacing: 1px; }
   .meatups-list .meatup {
     width: 400px;
-    margin: 0 auto 120px auto; }
+    margin: 30px auto 100px auto; }
     .meatups-list .meatup h2 {
       font-weight: normal;
       margin-bottom: 5px;

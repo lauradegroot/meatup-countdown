@@ -1,17 +1,17 @@
-body{
+body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-align: center;
 	background: url(../img/cubes.png);
 }
-a{
+a {
 	color:#34a4b8;
 	text-decoration: none;
 }
-a:hover{
+a:hover {
 	color:#f181ad;
 }
-.content{
-	width:870px;
+.content {
+	width:820px;
 	margin:0 auto;
 }
 .gifs{
@@ -20,38 +20,37 @@ a:hover{
 		width:135px;
 	}
 }
-.meatups-list{
+.meatups-list {
 	width:550px;
-	/*margin:40px 20px 0 20px;*/
 	background-color: #fff;
 	padding-bottom:40px;
 	float:left;
 	height:970px;
-	h1{
+	h1 {
 		font-weight: normal;
-		padding-top:50px;
+		padding-top:40px;
 		margin-bottom:0px;
 		letter-spacing: 1.5px;
 	}
-	p{
+	p {
 		margin: 0 0 9px 0;
 	}
-	p.subhead{ 
+	p.subhead { 
 		font-size: 19px;
 		letter-spacing: 1px;
 	}
-	.meatup{
+	.meatup {
 		width:400px;
-		margin: 0 auto 120px auto;
+		margin: 30px auto 100px auto;
 		h2{
 			font-weight: normal;
 			margin-bottom:5px;
 			font-size:30px;
 		}
-		p{
+		p {
 			font-size: 18px;
 		}
-		.count{
+		.count {
 			margin-top:10px;
 			font-size: 30px;
 		}
