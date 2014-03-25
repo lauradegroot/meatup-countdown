@@ -48,6 +48,12 @@ a:hover {
       margin-top: 10px;
       font-size: 30px; }
 
+p.credit {
+  clear: left;
+  font-size: 12px;
+  padding-top: 20px;
+  color: #34a4b8; }
+
 /* jQuery Countdown styles 2.0.0. */
 .countdown-rtl {
   direction: rtl; }
