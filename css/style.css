@@ -47,6 +47,8 @@ a:hover {
     .meatups-list .meatup .count {
       margin-top: 10px;
       font-size: 30px; }
+  .meatups-list .west {
+    margin-bottom: 50px; }
 
 p.credit {
   clear: left;
