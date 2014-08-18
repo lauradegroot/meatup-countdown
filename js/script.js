@@ -6,9 +6,9 @@ $(function() {
 
 var countdownToMeatups = function(){
 	
-	var meatupWest = new Date(2014, 04, 9);
-	$('.west .count').countdown({until: meatupWest});
+	var meatupWest = new Date(2014, 9, 2);
+	$('.east .count').countdown({until: meatupWest});
 
-	var meatupEu = new Date(2014, 04, 17);
-	$('.eu .count').countdown({until: meatupEu});
+	var meatupEu = new Date(2014, 9, 19);
+	$('.west .count').countdown({until: meatupEu});
 }
