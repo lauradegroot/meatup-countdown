@@ -6,7 +6,7 @@ $(function() {
 
 var countdownToMeatups = function(){
 	
-	var meatupWest = new Date(2014, 9, 2);
+	var meatupWest = new Date(2014, 9, 3);
 	$('.east .count').countdown({until: meatupWest});
 
 	var meatupEu = new Date(2014, 9, 19);
