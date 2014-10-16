@@ -24,7 +24,7 @@ a:hover {
   background-color: #fff;
   padding-bottom: 40px;
   float: left;
-  height: 465px; }
+  height: 667px; }
   .meatups-list h1 {
     font-weight: normal;
     padding-top: 40px;
@@ -35,13 +35,13 @@ a:hover {
   .meatups-list p.subhead {
     font-size: 19px;
     letter-spacing: 1px; }
+  .meatups-list h2 {
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-size: 30px; }
   .meatups-list .meatup {
     width: 400px;
     margin: 50px auto 100px auto; }
-    .meatups-list .meatup h2 {
-      font-weight: normal;
-      margin-bottom: 5px;
-      font-size: 30px; }
     .meatups-list .meatup p {
       font-size: 18px; }
     .meatups-list .meatup .count {
@@ -49,6 +49,12 @@ a:hover {
       font-size: 30px; }
   .meatups-list .west {
     margin-bottom: 50px; }
+  .meatups-list .nye {
+    overflow: auto;
+    margin-top: 60px; }
+    .meatups-list .nye p {
+      margin-top: 30px;
+      font-size: 18px; }
 
 p.credit {
   clear: left;
